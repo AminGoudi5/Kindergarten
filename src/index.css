@@ -1,0 +1,16 @@
+@font-face {
+    font-family: vazir;
+    src: url('./assets/Font/Vazir-Regular-FD-WOL.ttf');
+
+}
+
+* {
+    font-family: vazir;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.app{
+    width: 100%;
+}

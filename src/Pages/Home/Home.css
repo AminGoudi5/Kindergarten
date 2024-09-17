@@ -1,0 +1,11 @@
+.home{
+    background-color: rgb(129 219 219 / 46%);
+    padding: 0px 70px ;
+    /* height: 80vh; */
+}
+
+@media(max-width:850px){
+    .home{
+        padding: 0px 30px;
+    }
+}

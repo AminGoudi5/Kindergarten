@@ -1,0 +1,38 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 70px;
+    height: 50%;
+
+    gap: 15px;
+}
+
+.cart-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: #828282;
+}
+
+.cart-titr {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.cart-info {
+    padding-top: 20px;
+}
+
+@media(max-width:1024px) {
+    .cart-info {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:600px) {
+    .cart-titr {
+        font-size: 24px;
+    }
+}
